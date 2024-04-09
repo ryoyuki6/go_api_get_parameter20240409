@@ -86,11 +86,13 @@ GET /para のサンプルコード
 
 ### 動作確認
 
-curl http://localhost/logviewer -d starttime=1701356400000 -d endtime=1704034799999 -d -d datasource[0]="V2H" -d datasource[1]="PV" -G
+curl http://localhost:3000/para -d starttime=1701356400000 -d endtime=1704034799999 -d -d datasource[0]="V2H" -d datasource[1]="PV" -G
 
 参考：[curlコマンド](https://ichiroku11.hatenablog.jp/entry/2014/03/31/232758)
 
 参考：[クエリストリングで配列を表現をするケースをざっと調べる](https://shinkufencer.hateblo.jp/entry/2019/05/18/163912)
+
+参考：[よく使うcurlコマンドのオプションまとめ（14個）](https://qiita.com/shtnkgm/items/45b4cd274fa813d29539)
 
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
